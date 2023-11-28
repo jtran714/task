@@ -2,7 +2,7 @@ import React from 'react'
 
 const MarketingPage = () => {
   return (
-    <div>MarketingPage</div>
+    <div className='flex items-center justify-center flex-col'>MarketingPage</div>
   )
 }
 
