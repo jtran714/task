@@ -1,5 +1,7 @@
 import React from "react";
 import { Medal } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 const MarketingPage = () => {
   return (
@@ -21,6 +23,11 @@ const MarketingPage = () => {
         high rises to the home office, the way your team works is unique -
         accomplish it all with Taskit
       </div>
+      <Button className="mt-6" size="lg" asChild>
+        <Link href='/sign-up'>
+            Get Taskit for free
+        </Link>
+      </Button>
     </div>
   );
 };
