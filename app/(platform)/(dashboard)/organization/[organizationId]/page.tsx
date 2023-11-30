@@ -1,8 +1,12 @@
+import { OrganizationSwitcher, auth } from '@clerk/nextjs';
 import React from 'react'
 
 const OrganizationIdPage = () => {
+
   return (
-    <div>OrganizationIdPage</div>
+    <div>
+        organization page
+    </div>
   )
 }
 
