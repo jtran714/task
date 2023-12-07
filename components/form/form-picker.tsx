@@ -8,7 +8,6 @@ import { useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
 import { unsplash } from "@/lib/unsplash";
 import { defaultImages } from "@/constants/images";
-
 import { FormErrors } from "./form-errors";
 
 interface FormPickerProps {
@@ -21,7 +20,6 @@ export const FormPicker = ({
   errors,
 }: FormPickerProps) => {
   const { pending } = useFormStatus();
-
   const [images, setImages] = useState<Array<Record<string, any>>>(defaultImages);
   const [isLoading, setIsLoading] = useState(true);
   const [selectedImageId, setSelectedImageId] = useState(null);
