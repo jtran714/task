@@ -2,13 +2,13 @@
 
 import { toast } from "sonner";
 import { useEffect, useState } from "react";
-// import { DragDropContext, Droppable } from "@hello-pangea/dnd";
+import { DragDropContext, Droppable } from "@hello-pangea/dnd";
 import { ListWithCards } from "@/types";
 import { useAction } from "@/hooks/use-action";
 import { updateListOrder } from "@/actions/update-list-order";
 import { updateCardOrder } from "@/actions/update-card-order";
-// import { ListForm } from "./list-form";
-// import { ListItem } from "./list-item";
+import { ListForm } from "./list-form";
+import { ListItem } from "./list-item";
 
 interface ListContainerProps {
   data: ListWithCards[];
