@@ -2,7 +2,7 @@
 
 import { toast } from "sonner";
 import { useEffect, useState } from "react";
-import { DragDropContext, Droppable } from "@hello-pangea/dnd";
+// import { DragDropContext, Droppable } from "@hello-pangea/dnd";
 import { ListWithCards } from "@/types";
 import { useAction } from "@/hooks/use-action";
 import { updateListOrder } from "@/actions/update-list-order";
