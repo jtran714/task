@@ -24,15 +24,15 @@ const MarketingPage = () => {
           headingFont.className
         )}
       >
-        <div className="mb-4 flex items-center border shadow-sm p-4 bg-amber-100 text-amber-700 rounded-full upprcase">
+        {/* <div className="mb-4 flex items-center border shadow-sm p-4 bg-amber-100 text-amber-700 rounded-full upprcase">
           <Medal className="h-6 w-6 mr-2" />
           Number 1 Task Management
-        </div>
+        </div> */}
         <h1 className="text-3xl md:text-6xl text-center text-neutral-800 mb-6">
-          Taskit helps team move
+          Taskit brings all your
         </h1>
-        <div className="text-3xl md:text-6xl bg-gradient-to-r from-fuchsia-600 to-pink-600 text-white px-4 p-2 rounded-md pb-1 w-fit">
-          work forward.
+        <div className="text-3xl md:text-6xl bg-gradient-to-r from-purple-600 to-pink-600 text-white px-4 p-2 rounded-md pb-1 w-fit">
+          tasks, teammates, and tools together.
         </div>
       </div>
       <div
